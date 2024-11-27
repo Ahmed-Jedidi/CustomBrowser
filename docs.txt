@@ -1,0 +1,36 @@
+pour GET :
+https://example.com/
+https://fr.wikipedia.org/wiki/HTTP  ==> Ce site est intéressant car il utilise bien les en-têtes de cache.
+
+https://httpbin.org
+https://jsonplaceholder.typicode.com
+
+pour POST :
+https://jsonplaceholder.typicode.com/posts?userId=1&title=foo
+
+pour DELETE :
+https://jsonplaceholder.typicode.com/posts/1
+
+pour PUT :
+https://jsonplaceholder.typicode.com/posts/1?title=UpdatedTitle&body=UpdatedBody&userId=1
+
+
+
+
+
+
+
+
+
+
+
+Example Flow
+User sends a request to https://example.com/login:
+
+The server responds with Set-Cookie: session=abc123; Path=/.
+CookiesManager stores session=abc123 for example.com.
+User sends another request to https://example.com/dashboard:
+
+CookiesManager attaches Cookie: session=abc123 to the request headers.
+The server recognizes the session and returns the dashboard.
+This cookies manager enables basic cookie handling for your browser! If you want to add persistence across application restarts, you can extend the CookiesManager to save and load cookies from a file.
