@@ -1,10 +1,6 @@
 # CustomBrowser
 CustomBrowser is a lightweight Python-based browser interface inspired by Postman and web browsers. It focuses on HTTP requests/responses, HTTP status codes, and includes a cache management system. With it, users can view and delete cached data for specific URLs, making it a great educational tool for learning about HTTP caching and headers.
 
-# CustomBrowser
-
-CacheInspect is a lightweight Python-based browser application designed to provide insights into HTTP requests, responses, and caching mechanisms. With its minimalistic interface, it’s perfect for developers and students learning about HTTP protocols and caching strategies.
-
 ## Features
 
 - **Custom Request/Response Handling**: Inspect HTTP responses and understand status codes.
